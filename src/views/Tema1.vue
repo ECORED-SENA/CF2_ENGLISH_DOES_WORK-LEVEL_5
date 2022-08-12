@@ -1394,7 +1394,7 @@
     Dialogo.color-secundario.mb-5(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) #[i A short story] / Un cuento corto.
-      template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
+      template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
     .row.justify-content-center
       .col-lg-5.m-lg-2.bg-color5.p-4.mb-4.mb-lg-0
         p.mb-0 #[b #[i.txt-color2 That’s why you shouldn’t visit the same places with your new girlfriend…]]

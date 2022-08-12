@@ -626,7 +626,868 @@
                     .col-10.bg-color22.p-4
                       p.mb-0.text-center #[b #[i.txt-color1 Teacher]]
                       p.mb-0.text-center Maestro
-    p.text-center #[i Below we can see some examples:]
+    p.text-center.mb-5 #[i Below we can see some examples:]
+    .row.mb-4
+      .col-lg.bg-color54.m-lg-2.mb-4.mb-lg-0
+        .row.align-items-end
+          .col-lg-auto.mb-4.mb-lg-0
+            figure
+              img(src='@/assets/curso/tema2/img12.svg')
+          .col
+            p.mb-0 #[b #[i.txt-color1 Susy works as a babysitter in her free time from school.]]
+            p Susy trabaja como niñera en su tiempo libre de la escuela.
+      .col-lg.bg-color54.m-lg-2.mb-0.mb-lg-0
+        .row.align-items-end
+          .col-lg-auto.mb-4.mb-lg-0
+            figure
+              img(src='@/assets/curso/tema2/img13.svg')
+          .col
+            p.mb-0 #[b #[i.txt-color1 Jefferson wants to be a firefighter when he qrows up.]]
+            p Jefferson quiere ser bombero cuando sea grande.
+    .row.mb-4
+      .col-lg.bg-color54.m-lg-2.mb-4.mb-lg-0
+        .row.align-items-end
+          .col-lg-auto.mb-4.mb-lg-0
+            figure
+              img(src='@/assets/curso/tema2/img14.svg')
+          .col
+            p.mb-0 #[b #[i.txt-color1 Jimmy excels at his job as a bartender at that restaurant.]]
+            p Jimmy se destaca como cantinero en ese restaurante.
+      .col-lg.bg-color54.m-lg-2.mb-0.mb-lg-0
+        .row.align-items-end
+          .col-lg-auto.mb-4.mb-lg-0
+            figure
+              img(src='@/assets/curso/tema2/img15.svg')
+          .col
+            p.mb-0 #[b #[i.txt-color1 Felix is a pilot with many flying hours.]]
+            p Félix es un piloto con muchas horas de vuelo.
+    .row.mb-5
+      .col-lg.bg-color54.m-lg-2.mb-4.mb-lg-0
+        .row.align-items-end
+          .col-lg-auto.mb-4.mb-lg-0
+            figure
+              img(src='@/assets/curso/tema2/img16.svg')
+          .col
+            p.mb-0 #[b #[i.txt-color1 He is the dentist in that clinic.]]
+            p Él es el dentista en esa clínica.
+      .col-lg.bg-color54.m-lg-2.mb-0.mb-lg-0
+        .row.align-items-end
+          .col-lg-auto.mb-4.mb-lg-0
+            figure
+              img(src='@/assets/curso/tema2/img17.svg')
+          .col
+            p.mb-0 #[b #[i.txt-color1 Robert is a sailor, that’s why he has a love in every port.]]
+            p Roberto es un marinero, por eso tiene un amor en cada puerto.
+    .row.align-items-center.mb-5
+      .col-lg-auto
+        figure
+          img(src='@/assets/curso/tema2/img36.png')
+      .col-lg
+        p #[b #[i.txt-color2 Certainly, there are many other labor activities that people engage in. If required, a dictionary can be consulted to increase vocabulary.]]
+        p.txt-color3 Ciertamente, hay muchas otras actividades laborales a las que se dedican las personas. De requerirlo, puede consultarse un diccionario para aumentar el vocabulario.
+    p.mb-5 A continuación, puede escuchar algunas frases que son utilizadas en actividades laborales en nuestro diario vivir.
+    .row.bg-color55
+      .col-12.p-5
+        .row
+          .col-lg-auto
+            figure
+              img(src='@/assets/curso/tema2/img37.png')
+          .col-lg
+            AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--blanca")
+              .row(titulo="<em>When you apply for a job:</em> / Al solicitar empleo:")
+                .col-12
+                  p.mb-0.text-center #[b #[i.txt-color2 Phrases or vocabulary used for labor activities.]]
+                  p.mb-5.text-center.txt-color3 Frases o vocabulario utilizado para actividades laborales.
+                  .row
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Apply for a job.</b> / Solicitar un trabajo.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Accept the offer.</b> / Aceptar la oferta.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                  .row
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>CV</b> / Hoja de vida o curriculum vitae.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Reject the offer.</b> / Rechazar la oferta.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                  .row
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Appointment</b> / Cita</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>To hire staff.</b> / Contratar personal.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                  .row
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Interview</b> / Entrevista</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Contract.</b> / Contrato.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+              .row(titulo="<em>Regarding the characteristics of the labor to do</em> / Respecto a las características de la labor a realizar.")
+                .col-12
+                  p.mb-0.text-center #[b #[i.txt-color2 Phrases or vocabulary used for labor activities.]]
+                  p.mb-5.text-center.txt-color3 Frases o vocabulario utilizado para actividades laborales.
+                  .row
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Trainee.</b> / Aprendiz.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Break.</b> / Descanso.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                  .row
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Full-time job.</b> / Trabajo a tiempo completo.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Lunch time.</b> / Hora de almuerzo.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                  .row
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Part-time job.</b> / Trabajo de medio tiempo.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Schedule.</b> / Horario.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                  .row
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Permanent  job.</b> / Trabajo fijo o permanente.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Timekeeping.</b> / Puntualidad.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                  .row
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Temporary job.</b> / Trabajo temporal.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Check-in time.</b> / Hora de entrada.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                  .row
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Work shift.</b> / Turno de trabajo.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Check-out time.</b> / Hora de salida.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                  .row
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Boss.</b> / Jefe</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Overtime.</b> / Horas extra.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                  .row
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Colleague.</b> / Colega, compañero de trabajo.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Day off.</b> / Día libre.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                  .row
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Manager.</b> / Gerente.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Get promoted.</b> / Obtener un ascenso</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                  .row
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Employee.</b> / Empleado.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Staff.</b> / Personal de la empresa.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                  .row
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Worker.</b> / Trabajador.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Workplace.</b> / Lugar de trabajo.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+              .row(titulo="<em>Regarding the payment conditions.</em> / Respecto a las características del pago.")
+                .col-12
+                  p.mb-0.text-center #[b #[i.txt-color2 Phrases or vocabulary used for labor activities.]]
+                  p.mb-5.text-center.txt-color3 Frases o vocabulario utilizado para actividades laborales.
+                  .row
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Daily salary.</b> / Salario diario.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Bonus.</b> / Bono o bonificación.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                  .row
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Monthly salary.</b> / Salario mensual.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Vacation bonus.</b> / Bono de vacaciones.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                  .row
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Wage.</b> / Salario por semana.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Social security.</b> / Seguridad social.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                  .row
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Salary increase.</b> / Aumento salarial.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Social benefits.</b> / Prestaciones sociales.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                  .row
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Minimum wage.</b> / Salario mínimo.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Health insurance.</b> / Seguro médico.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                  .row
+                    .col-lg-6
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Decent salary.</b> / Salario digno.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+              .row(titulo="<em>When you stop working</em> / Cuando se deja de trabajar.")
+                .col-12
+                  p.mb-0.text-center #[b #[i.txt-color2 Phrases or vocabulary used for labor activities.]]
+                  p.mb-5.text-center.txt-color3 Frases o vocabulario utilizado para actividades laborales.
+                  .row
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>To resign.</b> / Dimitir, renunciar.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Grief over the death of a family member.</b> / Duelo por muerte de un familiar.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                  .row
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>To retire.</b> / Retirarse, jubilarse.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Holidays.</b> / Vacaciones.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                  .row
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Maternity leave.</b> / Permiso por maternidad.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Strike.</b> / Huelga.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                  .row
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Paternity leave.</b> / Permiso por paternidad.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>To fire.</b> / Despedir.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                  .row
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Marriage license.</b> / Permiso matrimonial.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                    .col-lg
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Out of work.</b> / Ser despedido, no tener trabajo.</p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+                  .row
+                    .col-lg-6
+                      TarjetaAudio.color-primario.mb-3(
+                        texto="<p><b>Sick leave.</b> / Permiso por enfermedad. </p>"
+                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                      )
+                        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+    Separador
+    #t_2_4
+    .titulo-segundo.color-primario
+      h2 2.4 #[i Physical, social and cognitive skills] (Habilidades físicas, sociales y cognitivas)
+    .row.mb-5
+      .col-lg.mb-4.mb-lg-0
+        Traduccion.color-primario(:dialogo="traduccion8")
+      .col-lg-auto
+        figure
+          img(src='@/assets/curso/tema2/img38.png')
+    p.mb-5 #[b #[i.txt-color1 These skills are stated as:]] / Estas habilidades se establecen como:
+    .titulo-sexto.color-primario.mb-4
+      p.mb-0 #[b Tabla 4]. Habilidades físicas
+    .tabla-b.color-acento-contenido.borde1.mb-5
+      .tabla-b__header.fondo3
+        .row.justify-content-end
+          .col-auto.p-4
+            Audio.color-primario.my-5.me-4(
+              :audio="require('@/assets/curso/tema1/audio3.mp4')"
+              @audio-hover="mostrarIndicadorAudio = false"
+            )
+            .indicador--click(v-if="mostrarIndicadorAudio")
+      table
+        tr.borde2
+          td(colspan="6")
+            h4.mb-0.text-center #[b #[i.txt-color1 Physical skills] / Habilidades físicas]
+        tr.borde2
+          td
+            h5.mb-0.text-center #[b #[i Motor skills]]
+          td.border3
+            h5.mb-0.text-center Capacidades motrices
+          td
+            h5.mb-0.text-center #[b #[i Perceptual-Motor Abilities]]
+          td.border3
+            h5.mb-0.text-center Capacidades Perceptivo-Motrices
+          td.border3
+            h5.mb-0.text-center #[b #[i Socio-Motor Skills]]
+          td
+            h5.mb-0.text-center Capacidades Socio-Motrices
+        tr
+          td
+            p.mb-0.text-center #[i Strength]
+          td.border3
+            p.mb-0.text-center Fuerza
+          td
+            p.mb-0.text-center #[i Coordination]
+          td.border3
+            p.mb-0.text-center Coordinación
+          td.border3
+            p.mb-0.text-center #[i Expression]
+          td
+            p.mb-0.text-center Expresión
+        tr.borde2
+          td
+            p.mb-0.text-center #[i Endurance]
+          td.border3
+            p.mb-0.text-center Resistencia
+          td
+            p.mb-0.text-center #[i Balance]
+          td.border3
+            p.mb-0.text-center Equilibrio
+          td.border3
+            p.mb-0.text-center #[i Imagination]
+          td
+            p.mb-0.text-center Imaginación
+        tr
+          td
+            p.mb-0.text-center #[i Speed]
+          td.border3
+            p.mb-0.text-center Velocidad
+          td
+            p.mb-0.text-center #[i Swing]
+          td.border3
+            p.mb-0.text-center Ritmo
+          td.border3
+            p.mb-0.text-center #[i Creation]
+          td
+            p.mb-0.text-center Creación
+        tr.borde5
+          td
+            p.mb-0.text-center #[i Flexibility]
+          td.border3
+            p.mb-0.text-center Flexibilidad
+          td
+            p.mb-0.text-center #[i Laterality]
+          td.border3
+            p.mb-0.text-center Lateralidad
+          td.border3
+            p.mb-0.text-center #[i Opposition - collaboration]
+          td
+            p.mb-0.text-center Oposición - colaboración
+    .row.mb-5
+      .col-lg-auto.mb-4.mb-lg-0
+        figure
+          img(src='@/assets/curso/tema2/img39.png')
+      .col-lg
+        Traduccion.color-primario.mb-5(:dialogo="traduccion9")
+        p.mb-0 #[b #[i.txt-color1 Among these skills are:]] / #[span.txt-color3 Entre estas habilidades se encuentran:]
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .titulo-sexto.color-primario.mb-4
+          p.mb-0 #[b Tabla 5]. Habilidades sociales
+        .tabla-b.color-acento-contenido.borde1
+          .tabla-b__header.fondo4
+            .row.justify-content-end
+              .col-auto.p-4
+                Audio.color-primario.my-5.me-4(
+                  :audio="require('@/assets/curso/tema1/audio3.mp4')"
+                  @audio-hover="mostrarIndicadorAudio = false"
+                )
+                .indicador--click(v-if="mostrarIndicadorAudio")
+          table
+            tr.borde2
+              td(colspan="6")
+                h4.mb-0.text-center #[b #[i.txt-color1 Social skills] / Habilidades sociales]
+            tr.borde2
+              td
+                p.mb-0.text-center #[b #[i Communication]]
+              td.border3
+                p.mb-0.text-center Comunicación
+              td
+                p.mb-0.text-center #[b #[i Express positive feelings.]]
+              td.border3
+                p.mb-0.text-center Expresar sentimientos positivos.
+            tr.borde2
+              td
+                p.mb-0.text-center #[b #[i Expressive skills]]
+              td.border3
+                p.mb-0.text-center Habilidades expresivas
+              td
+                p.mb-0.text-center #[b #[i Receive positive feelings.]]
+              td.border3
+                p.mb-0.text-center Recibir sentimientos positivos.
+            tr.borde2
+              td
+                p.mb-0.text-center #[b #[i Empathy]]
+              td.border3
+                p.mb-0.text-center Empatía
+              td
+                p.mb-0.text-center #[b #[i Defend your own rights.]]
+              td.border3
+                p.mb-0.text-center Defender los propios derechos.
+            tr.borde2
+              td
+                p.mb-0.text-center #[b #[i Assertiveness]]
+              td.border3
+                p.mb-0.text-center Asertividad
+              td
+                p.mb-0.text-center #[b #[i Make requests or ask for favors.]]
+              td.border3
+                p.mb-0.text-center Hacer peticiones o pedir favores.
+            tr.borde2
+              td
+                p.mb-0.text-center #[b #[i Respect]]
+              td.border3
+                p.mb-0.text-center Respeto
+              td
+                p.mb-0.text-center #[b #[i Reject requests. Say no.]]
+              td.border3
+                p.mb-0.text-center Rechazar peticiones. Decir no.
+            tr.borde2
+              td
+                p.mb-0.text-center #[b #[i Self-control]]
+              td.border3
+                p.mb-0.text-center Autocontrol
+              td
+                p.mb-0.text-center #[b #[i Face criticism.]]
+              td.border3
+                p.mb-0.text-center Afrontar las críticas.
+            tr.borde2
+              td
+                p.mb-0.text-center #[b #[i Active listening]]
+              td.border3
+                p.mb-0.text-center Escucha activa
+              td
+                p.mb-0.text-center #[b #[i Request to change behavior.]]
+              td.border3
+                p.mb-0.text-center Petición de cambio de una conducta.
+            tr.borde2
+              td
+                p.mb-0.text-center #[b #[i Negotiation]]
+              td.border3
+                p.mb-0.text-center Negociación
+              td
+                p.mb-0.text-center
+              td.border3
+                p.mb-0.text-center
+            tr.borde2
+              td
+                p.mb-0.text-center #[b #[i Comprehension]]
+              td.border3
+                p.mb-0.text-center Comprensión
+              td
+                p.mb-0.text-center
+              td.border3
+                p.mb-0.text-center
+            tr.borde5
+              td
+                p.mb-0.text-center #[b #[i Start, maintain and close conversations.]]
+              td.border3
+                p.mb-0.text-center Iniciar, mantener y cerrar conversaciones.
+              td
+                p.mb-0.text-center
+              td.border3
+                p.mb-0.text-center
+    .row.mb-5
+      .col-lg.mb-4.mb-lg-0
+        Traduccion.color-primario.mb-5(:dialogo="traduccion10")
+        p.mb-0 #[b #[i.txt-color1 Some of the most important are:]] / #[span.txt-color3 Algunas de las más importantes son:]
+      .col-lg-auto
+        figure
+          img(src='@/assets/curso/tema2/img40.png')
+    .titulo-sexto.color-primario.mb-4
+      p.mb-0 #[b Tabla 6]. Habilidades cognitivas
+    .tabla-b.color-acento-contenido.borde1.mb-5
+      .tabla-b__header.fondo5
+        .row.justify-content-end
+          .col-auto.p-4
+            Audio.color-primario.my-5.me-4(
+              :audio="require('@/assets/curso/tema1/audio3.mp4')"
+              @audio-hover="mostrarIndicadorAudio = false"
+            )
+            .indicador--click(v-if="mostrarIndicadorAudio")
+      table
+        tr.borde2
+          td(colspan="6")
+            h4.mb-0.text-center #[b #[i.txt-color1 Cognitive skills] / Habilidades cognitivas]
+        tr.borde2
+          td
+            p.mb-0.text-center #[b #[i Attention]]
+          td.border3
+            p.mb-0.text-center Atención
+          td
+            p.mb-0.text-center #[b #[i Perception]]
+          td.border3
+            p.mb-0.text-center Percepción
+        tr.borde2
+          td
+            p.mb-0.text-center #[b #[i Memory]]
+          td.border3
+            p.mb-0.text-center Memoria
+          td
+            p.mb-0.text-center #[b #[i Behavior inhibition and management]]
+          td.border3
+            p.mb-0.text-center Inhibición y gestión de la conducta
+        tr.borde2
+          td
+            p.mb-0.text-center #[b #[i Self-awareness]]
+          td.border3
+            p.mb-0.text-center Autoconciencia
+          td
+            p.mb-0.text-center #[b #[i Anticipation and planning]]
+          td.border3
+            p.mb-0.text-center Anticipación y planificación
+        tr.borde2
+          td
+            p.mb-0.text-center #[b #[i Reasoning]]
+          td.border3
+            p.mb-0.text-center Razonamiento
+          td
+            p.mb-0.text-center #[b #[i Symbolization and interpretation]]
+          td.border3
+            p.mb-0.text-center Simbolización e interpretación
+        tr.borde2
+          td
+            p.mb-0.text-center #[b #[i Motivation and goal setting]]
+          td.border3
+            p.mb-0.text-center Motivación y fijación de metas
+          td
+            p.mb-0.text-center #[b #[i Language]]
+          td.border3
+            p.mb-0.text-center Lenguaje
+        tr.borde2
+          td
+            p.mb-0.text-center #[b #[i Association capacity]]
+          td.border3
+            p.mb-0.text-center Capacidad de asociación
+          td
+            p.mb-0.text-center #[b #[i Metacognition]]
+          td.border3
+            p.mb-0.text-center Metacognición
+        tr.borde2
+          td
+            p.mb-0.text-center #[b #[i Cognitive flexibility]]
+          td.border3
+            p.mb-0.text-center Flexibilidad cognitiva
+          td
+            p.mb-0.text-center
+          td.border3
+            p.mb-0.text-center
+        tr.borde2
+          td
+            p.mb-0.text-center #[b #[i Problem resolution]]
+          td.border3
+            p.mb-0.text-center Resolución de problemas
+          td
+            p.mb-0.text-center
+          td.border3
+            p.mb-0.text-center
+        tr.borde5
+          td
+            p.mb-0.text-center #[b #[i Creativity and lateral thinking]]
+          td.border3
+            p.mb-0.text-center Creatividad y pensamiento lateral
+          td
+            p.mb-0.text-center
+          td.border3
+            p.mb-0.text-center
+    .row.align-items-center.mb-5
+      .col-lg-4.mb-4.mb-lg-0
+        figure
+          img(src='@/assets/curso/tema1/img8.png')
+      .col-lg-8
+        .row
+          .col-12.bg-color5.p-4.mb-3
+            p.mb-0 #[b #[i.txt-color2 Note: In general, to help develop cognitive skills, some recommendations can be followed, especially from childhood, through  activities such as:]]
+          .col-12.bg-color6.p-4.mb-3
+            p.mb-0.txt-color3 #[b Nota]: en general, para ayudar a desarrollar las habilidades cognitivas, se pueden seguir algunas recomendaciones, especialmente desde la niñez, mediante la realización de actividades como:
+    .row.justify-content-center.mb-5
+      .col-lg-auto
+        .titulo-sexto.color-primario.mb-4
+          p.mb-0 #[b Tabla 7]. Actividades para desarrollar habilidades cognitivas
+        .tabla-b.color-acento-contenido.borde1
+          .tabla-b__header.fondo6
+            .row.justify-content-end
+              .col-auto.p-4
+                Audio.color-primario.my-5.me-4(
+                  :audio="require('@/assets/curso/tema1/audio3.mp4')"
+                  @audio-hover="mostrarIndicadorAudio = false"
+                )
+                .indicador--click(v-if="mostrarIndicadorAudio")
+          table
+            tr.borde2
+              td(colspan="6")
+                h4.mb-0.text-center #[b #[i.txt-color1 Activities to develop cognitive skills.]]
+                h4.mb-0.text-center #[b  Actividades para desarrollar las habilidades cognitivas.]
+            tr.borde2
+              td
+                p.mb-0.text-center #[b #[i Games (free structured)]]
+              td.border3
+                p.mb-0.text-center Juegos (libres y estructurados)
+            tr.borde2
+              td
+                p.mb-0.text-center #[b #[i Educational video games]]
+              td.border3
+                p.mb-0.text-center Videojuegos educativos
+            tr.borde2
+              td
+                p.mb-0.text-center #[b #[i Riddles]]
+              td.border3
+                p.mb-0.text-center Acertijos
+            tr.borde2
+              td
+                p.mb-0.text-center #[b #[i Mental dexterity tasks]]
+              td.border3
+                p.mb-0.text-center Tareas de destreza mental
+            tr.borde2
+              td
+                p.mb-0.text-center #[b #[i Table games]]
+              td.border3
+                p.mb-0.text-center Juegos de mesa
+            tr.borde2
+              td
+                p.mb-0.text-center #[b #[i Artistic activities]]
+              td.border3
+                p.mb-0.text-center Actividades artísticas
+            tr.borde2
+              td
+                p.mb-0.text-center #[b #[i Physical exercises]]
+              td.border3
+                p.mb-0.text-center Ejercicios físicos
+            tr.borde5
+              td
+                p.mb-0.text-center #[b #[i Sport activities]]
+              td.border3
+                p.mb-0.text-center Actividades deportivas
+    p.mb-5 A continuación, escuche el siguiente diálogo, en el cual se aplica lo estudiado en el tema:
+    Dialogo.color-secundario.mb-5(:dialogo="dialogo")
+      template(#nombre-actividad) Arrastrar y Soltar
+      template(#titulo-actividad) #[i A short story] / Un cuento corto.
+      template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
+    .row.justify-content-center
+      .col-lg-auto.mb-4.mb-lg-0
+        figure
+          img(src='@/assets/curso/tema2/img24.svg')
+      .col-lg-5
+        Traduccion.color-primario.mb-5(:dialogo="traduccion11")
 
 </template>
 
@@ -707,6 +1568,130 @@ export default {
             '<em>Work or labor is the activity that people carry out either as a duty or activity dependent on the profession or the job they have. A person who works in any company must comply with the assignments or activities entrusted to him, receiving for it a payment, salary or wage. And he must try to do these activities as effectively and efficiently as possible to achieve his goals and those of the company in which he provides his services.<br><br>There are also cases in which a person works independently, carrying out activities that allow him to obtain income on his behalf.</em>',
           textoEsp:
             'El trabajo o labor es la actividad que las personas realizan, ya sea como deber o actividad dependiente de la profesión o del empleo que tienen. Una persona que trabaja en cualquier empresa debe cumplir con las asignaciones o actividades que le encomiendan, recibiendo por ello un pago, sueldo o salario. Y debe tratar de hacer estas actividades con la mayor eficacia y eficiencia que pueda, para lograr sus objetivos y los de la empresa en la cual presta sus servicios.<br><br>También existen casos en los que una persona trabaja en forma independiente, realizando actividades que le permiten obtener ingresos por su cuenta.',
+        },
+      ],
+    },
+    traduccion8: {
+      dialogo: [
+        {
+          textoIng:
+            '<em>The human being has various abilities, which are developed from birth to adulthood. Among these basic skills are: physical, social and cognitive. Some of these skills are defined and listed below.<br><br><b>Physical skills</b><br><br>They are physiological conditions innate in the individual, which allow movement and are feasible to measure and improve through training.</em>',
+          textoEsp:
+            'El ser humano posee diversas habilidades, que se van desarrollando desde que nace hasta su vida adulta. Entre estas habilidades básicas, están: las físicas, sociales y cognitivas. Seguidamente, se definen y se enumeran algunas de estas habilidades.<br><br><b>Habilidades físicas</b><br><br>Son condiciones fisiológicas innatas en el individuo, que permiten el movimiento y son factibles de medida y mejora a través del entrenamiento.',
+        },
+      ],
+    },
+    traduccion9: {
+      dialogo: [
+        {
+          textoIng:
+            '<em><b>Social skills</b><br><br>Social skills refer to the person´s ability to execute an exchange behavior with favorable results, in a way that allows us to relate to other people in an appropriate way.</em>',
+          textoEsp:
+            '<b>Habilidades sociales</b><br><br>Las habilidades sociales hacen referencia a la capacidad de la persona de ejecutar una conducta de intercambio con resultados favorables, de manera que nos permiten relacionarnos con otras personas de forma adecuada.',
+        },
+      ],
+    },
+    traduccion10: {
+      dialogo: [
+        {
+          textoIng:
+            '<em><b>Cognitive skills</b><br><br>Cognitive skills are mental processes that are developed from childhood and allow us to function successfully in everyday life. There are many cognitive abilities that we have and that we use constantly to survive, mostly even unconsciously.</em>',
+          textoEsp:
+            '<b>Habilidades cognitivas</b><br><br>Las habilidades cognitivas son procesos mentales que se desarrollan desde la niñez y nos permiten desenvolvernos con éxito en la vida cotidiana. Son muchas las habilidades cognitivas de las que disponemos y que usamos constantemente para sobrevivir, en su mayoría incluso inconscientemente.',
+        },
+      ],
+    },
+    traduccion11: {
+      dialogo: [
+        {
+          textoIng:
+            '<em><b>We must use our cognitive skills to achieve success in life!</b></em>',
+          textoEsp:
+            '¡Debemos usar nuestras habilidades cognitivas para alcanzar el éxito en la vida!',
+        },
+      ],
+    },
+    dialogo: {
+      personajes: [
+        {
+          nombre: 'Christian',
+          img: require('@/assets/curso/tema1/img134.svg'),
+        },
+        {
+          nombre: 'Aura',
+          img: require('@/assets/curso/tema1/img135.svg'),
+        },
+      ],
+      dialogo: [
+        {
+          personaje: 'Christian',
+          textoIng: 'What time do you ***?',
+          textoEsp: 'A qué hora te ***',
+          audio: require('@/assets/curso/tema1/audio2.mp4'),
+          palabra: 'get up',
+        },
+        {
+          personaje: 'Aura',
+          textoIng: 'Usually, at 6:00 a.m.',
+          textoEsp: 'Por lo general, a las 6:00 a.m.',
+          audio: require('@/assets/curso/tema1/audio2.mp4'),
+          palabra: '',
+        },
+        {
+          personaje: 'Christian',
+          textoIng: 'Wow! That’s very early!',
+          textoEsp: '¡Guau! ¡Eso es muy temprano!',
+          audio: require('@/assets/curso/tema1/audio2.mp4'),
+          palabra: 'must',
+        },
+        {
+          personaje: 'Aura',
+          textoIng: 'I need to go to scholl',
+          textoEsp: 'tengo que ir a la escuela',
+          audio: require('@/assets/curso/tema1/audio2.mp4'),
+          palabra: '',
+        },
+        {
+          personaje: 'Christian',
+          textoIng: 'What’s the first thing you do when you get up?',
+          textoEsp: '¿Qué es lo primero que haces cuando te levantas?',
+          audio: require('@/assets/curso/tema1/audio2.mp4'),
+          palabra: '',
+        },
+        {
+          personaje: 'Aura',
+          textoIng: 'I *** my teeth.',
+          textoEsp: 'Me *** los dientes.',
+          audio: require('@/assets/curso/tema1/audio2.mp4'),
+          palabra: 'brush',
+        },
+        {
+          personaje: 'Aura',
+          textoIng: 'I take a ***.',
+          textoEsp: 'Yo tomo una ***.',
+          audio: require('@/assets/curso/tema1/audio2.mp4'),
+          palabra: 'shower',
+        },
+        {
+          personaje: 'Aura',
+          textoIng: 'I *** my hair.',
+          textoEsp: 'Me *** mi pelo.',
+          audio: require('@/assets/curso/tema1/audio2.mp4'),
+          palabra: 'comb',
+        },
+        {
+          personaje: 'Aura',
+          textoIng: 'And *** breakfast.',
+          textoEsp: 'Y *** el desayuno.',
+          audio: require('@/assets/curso/tema1/audio2.mp4'),
+          palabra: 'cook',
+        },
+        {
+          personaje: 'Christian',
+          textoIng: 'Ok, Bye.',
+          textoEsp: 'Ok, Adios.',
+          audio: require('@/assets/curso/tema1/audio2.mp4'),
+          palabra: '',
         },
       ],
     },
