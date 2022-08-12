@@ -16,7 +16,7 @@
     p.mb-5 Se invita a explorar el video introductorio que se presenta a continuación:
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/0dRzyIwlTFs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/vNIUKJQLKjI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
 </template>
 
