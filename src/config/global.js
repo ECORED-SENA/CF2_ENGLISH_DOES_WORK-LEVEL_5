@@ -42,65 +42,65 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: '<em>Modal verbs</em> (Verbos modales)',
+        titulo: '<em>Modal verbs</em> / Verbos modales',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: '<em>Use of “can”</em> (Uso de <em>“can”</em>)',
+            titulo: '<em>Use of “can”</em> / Uso de <em>“can”</em>',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: '<em>Use of “could”</em> (Uso de <em>“could”</em>)',
+            titulo: '<em>Use of “could”</em> / Uso de <em>“could”</em>',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: '<em>Use of “should”</em> (Uso de <em>“should”</em>)',
+            titulo: '<em>Use of “should”</em> / Uso de <em>“should”</em>',
             hash: 't_1_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: '<em>Use of “may”</em> (Uso de <em>“may”</em>)',
+            titulo: '<em>Use of “may”</em> / Uso de <em>“may”</em>',
             hash: 't_1_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
-            titulo: '<em>Use of “might”</em> (Uso de <em>“might”</em>)',
+            titulo: '<em>Use of “might”</em> / Uso de <em>“might”</em>',
             hash: 't_1_5',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.6',
             titulo:
-              '<em>Requests and petitions</em> (Solicitudes y peticiones)',
+              '<em>Requests and petitions</em> / Solicitudes y peticiones',
             hash: 't_1_6',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.7',
             titulo:
-              '<em>Affirmative sentence structures using modal verbs</em> (Estructuras de oraciones afirmativas empleando verbos modales)',
+              '<em>Affirmative sentence structures using modal verbs</em> / Estructuras de oraciones afirmativas empleando verbos modales',
             hash: 't_1_7',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.8',
             titulo:
-              '<em>Negative sentence structures using modal verbs</em> (Estructuras de oraciones negativas empleando verbos modales)',
+              '<em>Negative sentence structures using modal verbs</em> / Estructuras de oraciones negativas empleando verbos modales',
             hash: 't_1_8',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.9',
             titulo:
-              '<em>Interrogative sentence structures using modal verbs</em> (Estructuras de oraciones interrogativas empleando verbos modales)',
+              '<em>Interrogative sentence structures using modal verbs</em> / Estructuras de oraciones interrogativas empleando verbos modales',
             hash: 't_1_9',
           },
         ],
@@ -110,32 +110,32 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: '<em>Compound sentences</em> (Oraciones compuestas)',
+        titulo: '<em>Compound sentences</em> / Oraciones compuestas',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: '<em>Personal activities</em> (Actividades personales)',
+            titulo: '<em>Personal activities</em> / Actividades personales',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: '<em>Social activities</em> (Actividades sociales)',
+            titulo: '<em>Social activities</em> / Actividades sociales',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: '<em>Labor activities</em> (Actividades laborales)',
+            titulo: '<em>Labor activities</em> / Actividades laborales',
             hash: 't_2_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
             titulo:
-              '<em>Physical, social, and cognitive skills</em> (Habilidades físicas, sociales y cognitivas)',
+              '<em>Physical, social, and cognitive skills</em> / Habilidades físicas, sociales y cognitivas',
             hash: 't_2_4',
           },
         ],
@@ -302,7 +302,7 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Lina Marcela Perez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

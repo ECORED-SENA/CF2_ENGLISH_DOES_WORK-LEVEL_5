@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-botones
       .titulo-principal__numero
         span 1
-      h1 #[i Modal verbs] (Verbos modales)
+      h1 #[i Modal verbs] / Verbos modales
     .row.mb-5
       .col-lg-7.mb-4.mb-lg-0
         Traduccion.color-primario(:dialogo="traduccion1")
@@ -21,35 +21,45 @@
               .tarjeta-flip__contenedor
                 .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img1.svg')})`}")
                 .tarjeta-flip__contenido.p-4
-                  p.text-center Habilidad o posibilidad.
+                  .row.h-100.align-items-center
+                    .col-12
+                      p.text-center.mb-0 Habilidad o posibilidad.
           .col-7.col-lg.mb-4.mb-lg-0
             .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
                 .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img2.svg')})`}")
                 .tarjeta-flip__contenido.p-4
-                  p.text-center Pasado de #[i can] - hacer solicitudes.
+                  .row.h-100.align-items-center
+                    .col-12
+                      p.text-center.mb-0 Pasado de #[i can] - hacer solicitudes.
           .col-7.col-lg.mb-4.mb-lg-0
             .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
                 .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img3.svg')})`}")
                 .tarjeta-flip__contenido.p-4
-                  p.text-center Probabilidad.
+                  .row.h-100.align-items-center
+                    .col-12
+                      p.text-center.mb-0 Probabilidad.
           .col-7.col-lg.mb-4.mb-lg-0
             .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
                 .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img4.svg')})`}")
                 .tarjeta-flip__contenido.p-4
-                  p.text-center Posibilidad o sugerencias.
+                  .row.h-100.align-items-center
+                    .col-12
+                      p.text-center.mb-0 Posibilidad o sugerencias.
           .col-7.col-lg
             .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
                 .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img5.svg')})`}")
                 .tarjeta-flip__contenido.p-4
-                  p.text-center Futuro con intención clara.
+                  .row.h-100.align-items-center
+                    .col-12
+                      p.text-center.mb-0 Futuro con intención clara.
     .row.justify-content-center.mb-5
       .col-lg-9
         .row.justify-content-center
@@ -59,28 +69,36 @@
               .tarjeta-flip__contenedor
                 .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img6.svg')})`}")
                 .tarjeta-flip__contenido.p-4
-                  p.text-center Peticiones.
+                  .row.h-100.align-items-center
+                    .col-12
+                      p.text-center.mb-0 Peticiones.
           .col-7.col-lg.mb-4.mb-lg-0
             .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
                 .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img7.svg')})`}")
                 .tarjeta-flip__contenido.p-4
-                  p.text-center Compromiso.
+                  .row.h-100.align-items-center
+                    .col-12
+                      p.text-center.mb-0 Compromiso.
           .col-7.col-lg.mb-4.mb-lg-0
             .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
                 .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img8.svg')})`}")
                 .tarjeta-flip__contenido.p-4
-                  p.text-center Es el mismo significado de #[i Will] - poco se usa.
+                  .row.h-100.align-items-center
+                    .col-12
+                      p.text-center.mb-0 Es el mismo significado de #[i Will] - poco se usa.
           .col-7.col-lg.mb-4.mb-lg-0
             .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
                 .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img9.svg')})`}")
                 .tarjeta-flip__contenido.p-4
-                  p.text-center Recomendación o una obligación.
+                  .row.h-100.align-items-center
+                    .col-12
+                      p.text-center.mb-0 Recomendación o una obligación.
     .row.mb-5
       .col-lg-4.mb-4.mb-lg-0
         figure
@@ -113,7 +131,7 @@
     Separador
     #t_1_1
     .titulo-segundo.color-primario
-      h2 1.1 #[i Use of “can”] / (Uso de #[i “can”])
+      h2 1.1 #[i Use of “can”] / Uso de #[i “can”]
     .row.bg-color3.mb-5
       .col-12.p-5
         .row
@@ -132,7 +150,7 @@
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorAudio")
-                    p.mb-0.text-center #[b #[i Listen to de audio]. /#[br] Escuche el audio.]
+                    p.mb-0.text-center #[b #[i Listen to de audio].#[br] Escuche el audio.]
                   .col-10.col-lg.mb-4.mb-lg-0
                     figure.mb-4
                       img(src='@/assets/curso/tema1/img15.svg')
@@ -147,7 +165,7 @@
           img(src='@/assets/curso/tema1/img3.png')
       .col-lg
         p #[i.txt-color2 In the development of a conversation or when formulating sentences, this modal verb can be used in an affirmative, negative or interrogative form. The following table shows each of these structures:]
-        p En el desarrollo de una conversación o al formular oraciones, este verbo modal se puede utilizar en forma afirmativa, negativa o interrogativa. En la siguiente tabla, se observa cada una de estas estructuras:
+        p.txt-color3 En el desarrollo de una conversación o al formular oraciones, este verbo modal se puede utilizar en forma afirmativa, negativa o interrogativa. En la siguiente tabla, se observa cada una de estas estructuras:
     .row.justify-content-center
       .col-lg-10
         .titulo-sexto.color-primario.mb-4
@@ -157,7 +175,7 @@
             .row.justify-content-end
               .col-auto.p-4
                 Audio.color-primario.my-5.me-4(
-                  :audio="require('@/assets/curso/tema1/audio3.mp4')"
+                  :audio="require('@/assets/curso/tema1/audio1.wav')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                 .indicador--click(v-if="mostrarIndicadorAudio")
@@ -212,7 +230,7 @@
     Separador
     #t_1_2
     .titulo-segundo.color-primario
-      h2 1.2 #[i Use of “could”] / (Uso de #[i “could”])
+      h2 1.2 #[i Use of “could”] / Uso de #[i “could”]
     .row.align-items-center.mb-5
       .col-lg-auto.mb-4.mb-lg-0
         figure
@@ -238,7 +256,7 @@
             p.mb-0 #[b #[i.txt-color1 Peter couldn’t go to the movies.]] / Peter no pudo ir al cine.
           .col-10.col-lg.bg-color8.p-5
             Audio.color-primario.mx-auto(
-              :audio="require('@/assets/curso/tema1/audio2.mp4')"
+              :audio="require('@/assets/curso/tema1/audio4.mp4')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorAudio")
@@ -281,7 +299,7 @@
                   .col-11.col-lg
                     TarjetaAudio.color-primario.mb-2(
                       texto="You <em>could</em> <i>eat</i> <span>all the fruits.</span>"
-                      :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                      :audio="require('@/assets/curso/tema1/audio5.mp4')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -319,7 +337,7 @@
                   .col-11.col-lg
                     TarjetaAudio.color-primario.mb-2(
                       texto="<em>Could</em> you <i>sign</i> <em>here, please?</em>"
-                      :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                      :audio="require('@/assets/curso/tema1/audio6.mp4')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -369,7 +387,7 @@
                   .col-11.col-lg
                     TarjetaAudio.color-primario.mb-2(
                       texto="You <em>could</em><span>n’t</span> <i>do</i> <span>the homework.</span>"
-                      :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                      :audio="require('@/assets/curso/tema1/audio7.mp4')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -382,14 +400,14 @@
         .row
           .col-12.bg-color5.p-4.mb-3
             p.mb-0 #[b #[i.txt-color2 Note: being in the negative form, this modal verb can be written with a contraction.]]
-            p.mb-0 #[b #[i.txt-color2 In this case, #[span.txt-color1 could not] becomes → #[span.txt-color1 couldn’.]]]
+            p.mb-0 #[b #[i.txt-color2 In this case, #[span.txt-color1 could not] becomes → #[span.txt-color1 couldn’t.]]]
           .col-12.bg-color6.p-4.mb-3
             p.mb-0.txt-color3 #[b Nota]: al estar en forma negativa, este verbo modal puede escribirse con contracción. 
             p.mb-0.txt-color3 En este caso, #[i #[b could not]]  pasa a → #[i #[b couldn’t.]]
     Separador
     #t_1_3
     .titulo-segundo.color-primario
-      h2 1.3 #[i Use of “should”] / (Uso de #[i “should”])
+      h2 1.3 #[i Use of “should”] / Uso de #[i “should”]
     .row.align-items-center.mb-5
       .col-lg.mb-4.mb-lg-0
         p #[i.txt-color2 #[b The modal verb “should” is used when you want to express: an obligation, a recommendation or advice, about what is considered correct, or what is considered a good idea in some case or situation. Likewise, it can be used when you want to speculate on a topic and say something that you think is likely to happen.]]
@@ -477,7 +495,7 @@
                   .col-11.col-lg
                     TarjetaAudio.color-primario.mb-2(
                       texto="Sam <em>should</em> <i>work</i> <span>in your office.</span>"
-                      :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                      :audio="require('@/assets/curso/tema1/audio8.mp4')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -515,7 +533,7 @@
                   .col-11.col-lg
                     TarjetaAudio.color-primario.mb-2(
                       texto="<span>Should</span> Carol <i>go</i> <em>to Ukraine this month?</em>"
-                      :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                      :audio="require('@/assets/curso/tema1/audio15.wav')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -565,7 +583,7 @@
                   .col-11.col-lg
                     TarjetaAudio.color-primario.mb-2(
                       texto="They <em>should</em><span>n’t</span> <i>eat</i> <span>such spicy food.</span>"
-                      :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                      :audio="require('@/assets/curso/tema1/audio10.mp4')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -585,7 +603,7 @@
     Separador
     #t_1_4
     .titulo-segundo.color-primario
-      h2 1.4 #[i Use of “may”] / (Uso de #[i “may”])
+      h2 1.4 #[i Use of “may”] / Uso de #[i “may”]
     .row.mb-5
       .col-lg.mb-4.mb-lg-0
         Traduccion.color-primario(:dialogo="traduccion6")
@@ -655,7 +673,7 @@
                   .col-11.col-lg
                     TarjetaAudio.color-primario.mb-2(
                       texto="Sara <em>may</em> <i>expose</i> <span>her health.</span>"
-                      :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                      :audio="require('@/assets/curso/tema1/audio14.wav')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -693,7 +711,7 @@
                   .col-11.col-lg
                     TarjetaAudio.color-primario.mb-2(
                       texto="<em>May</em> I <i>help</i> <span>you with your baby?</span>"
-                      :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                      :audio="require('@/assets/curso/tema1/audio12.mp4')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -743,7 +761,7 @@
                   .col-11.col-lg
                     TarjetaAudio.color-primario.mb-2(
                       texto="I <em>may</em> <span>not</span> <i>live</i> <span>without you.</span>"
-                      :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                      :audio="require('@/assets/curso/tema1/audio13.mp4')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -759,11 +777,11 @@
             p.mb-0 #[b #[i.txt-color2 In this case, #[span.txt-color1 may not] continues → #[span.txt-color1 may not.]]]
           .col-12.bg-color6.p-4.mb-3
             p.mb-0.txt-color3 #[b Nota]: al estar en forma negativa, este verbo modal no puede escribirse con contracción.
-            p.mb-0.txt-color3 En este caso, #[i #[b may not]]  pasa a → #[i #[b may not.]]
+            p.mb-0.txt-color3 En este caso, #[i #[b may not]] continua → #[i #[b may not.]]
     Separador
     #t_1_5
     .titulo-segundo.color-primario
-      h2 1.5 #[i Use of “might”] / (Uso de #[i “might”])
+      h2 1.5 #[i Use of “might”] / Uso de #[i “might”]
     .row.mb-5
       .col-4.col-lg-auto
         figure
@@ -825,7 +843,7 @@
                 .col-11.col-lg
                   TarjetaAudio.color-primario.mb-2(
                     texto="Mickie <em>might</em> <i>follow</i> <span>directions if asked.</span>"
-                    :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                    :audio="require('@/assets/curso/tema1/audio16.wav')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -863,7 +881,7 @@
                 .col-11.col-lg
                   TarjetaAudio.color-primario.mb-2(
                     texto="<em>Might</em> you <i>plug</i> <span>the cable of the machine, please?</span>"
-                    :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                    :audio="require('@/assets/curso/tema1/audio17.wav')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -913,7 +931,7 @@
                 .col-11.col-lg
                   TarjetaAudio.color-primario.mb-2(
                     texto="Watch out! She <em>might</em> <span>not</span> <i>be</i> <span>good with children.</span>"
-                    :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                    :audio="require('@/assets/curso/tema1/audio18.wav')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -929,11 +947,11 @@
             p.mb-0 #[b #[i.txt-color2 In this case, #[span.txt-color1 might not] continues → #[span.txt-color1 might not.]]]
           .col-12.bg-color6.p-4.mb-3
             p.mb-0.txt-color3 #[b Nota]: al estar en forma negativa, este verbo modal no puede escribirse con contracción.
-            p.mb-0.txt-color3 En este caso, #[i #[b might not]]  pasa a → #[i #[b might not.]]
+            p.mb-0.txt-color3 En este caso, #[i #[b might not]] continua → #[i #[b might not.]]
     Separador
     #t_1_6
     .titulo-segundo.color-primario
-      h2 1.6 #[i Requests and petitions] / (Solicitudes y peticiones)
+      h2 1.6 #[i Requests and petitions] / Solicitudes y peticiones
     .row.mb-5
       .col-lg-auto.mb-4.mb-lg-0
         figure
@@ -951,7 +969,7 @@
                   img(src='@/assets/curso/tema1/img98.svg', style="width:120px").m-auto
                 TarjetaAudio.color-primario.mb-2(
                   texto="Will you give her the toy, please?"
-                  :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                  :audio="require('@/assets/curso/tema1/audio7.wav')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -961,7 +979,7 @@
                   img(src='@/assets/curso/tema1/img99.svg', style="width:120px").m-auto
                 TarjetaAudio.color-primario.mb-2(
                   texto="Will you talk louder, please?"
-                  :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                  :audio="require('@/assets/curso/tema1/audio6.wav')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -971,7 +989,7 @@
                   img(src='@/assets/curso/tema1/img100.svg', style="width:120px").m-auto
                 TarjetaAudio.color-primario.mb-2(
                   texto="Will you paint the garage, please?"
-                  :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                  :audio="require('@/assets/curso/tema1/audio5.wav')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -982,7 +1000,7 @@
                   img(src='@/assets/curso/tema1/img101.svg', style="width:120px").m-auto
                 TarjetaAudio.color-primario.mb-2(
                   texto="Will you walk faster, please?"
-                  :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                  :audio="require('@/assets/curso/tema1/audio4.wav')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -992,7 +1010,7 @@
                   img(src='@/assets/curso/tema1/img102.svg', style="width:120px").m-auto
                 TarjetaAudio.color-primario.mb-2(
                   texto="Will you marry me?"
-                  :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                  :audio="require('@/assets/curso/tema1/audio3.wav')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -1002,7 +1020,7 @@
                   img(src='@/assets/curso/tema1/img103.svg', style="width:120px").m-auto
                 TarjetaAudio.color-primario.mb-2(
                   texto="Will you go to the market to buy carrots, please?"
-                  :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                  :audio="require('@/assets/curso/tema1/audio2.wav')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                   .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -1023,7 +1041,7 @@
               img(src='@/assets/curso/tema1/img105.svg', style="width:120px").m-auto
             TarjetaAudio.color-primario.mb-2(
               texto="Would you prepare breakfast, please?"
-              :audio="require('@/assets/curso/tema1/audio2.mp4')"
+              :audio="require('@/assets/curso/tema1/audio8.wav')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -1033,7 +1051,7 @@
               img(src='@/assets/curso/tema1/img106.svg', style="width:120px").m-auto
             TarjetaAudio.color-primario.mb-2(
               texto="Would you pass me the hammer, please?"
-              :audio="require('@/assets/curso/tema1/audio2.mp4')"
+              :audio="require('@/assets/curso/tema1/audio9.wav')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -1043,7 +1061,7 @@
               img(src='@/assets/curso/tema1/img107.svg', style="width:120px").m-auto
             TarjetaAudio.color-primario.mb-2(
               texto="Would you join me on the trip?"
-              :audio="require('@/assets/curso/tema1/audio2.mp4')"
+              :audio="require('@/assets/curso/tema1/audio10.wav')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -1054,7 +1072,7 @@
               img(src='@/assets/curso/tema1/img108.svg', style="width:120px").m-auto
             TarjetaAudio.color-primario.mb-2(
               texto="Would you dance with me all night?"
-              :audio="require('@/assets/curso/tema1/audio2.mp4')"
+              :audio="require('@/assets/curso/tema1/audio11.wav')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -1064,7 +1082,7 @@
               img(src='@/assets/curso/tema1/img109.svg', style="width:120px").m-auto
             TarjetaAudio.color-primario.mb-2(
               texto="Would you do your homework, please?"
-              :audio="require('@/assets/curso/tema1/audio2.mp4')"
+              :audio="require('@/assets/curso/tema1/audio12.wav')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -1074,7 +1092,7 @@
               img(src='@/assets/curso/tema1/img110.svg', style="width:120px").m-auto
             TarjetaAudio.color-primario.mb-2(
               texto="Would you call my parents, please?"
-              :audio="require('@/assets/curso/tema1/audio2.mp4')"
+              :audio="require('@/assets/curso/tema1/audio13.wav')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -1082,7 +1100,7 @@
     Separador
     #t_1_7
     .titulo-segundo.color-primario
-      h2 1.7 #[i Affirmative sentence structures using modal verbs] (Estructuras de oraciones afirmativas empleando verbos modales)
+      h2 1.7 #[i Affirmative sentence structures using modal verbs] / Estructuras de oraciones afirmativas empleando verbos modales
     .row.mb-5
       .col-lg-auto.mb-4.mb-lg-0
         figure
@@ -1145,7 +1163,7 @@
                 .row.justify-content-end
                   .col-auto.p-4
                     Audio.color-primario.my-5.me-4(
-                      :audio="require('@/assets/curso/tema1/audio3.mp4')"
+                      :audio="require('@/assets/curso/tema1/audio19.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                     .indicador--click(v-if="mostrarIndicadorAudio")
@@ -1220,7 +1238,7 @@
     Separador
     #t_1_8
     .titulo-segundo.color-primario
-      h2 1.8 #[i Negative sentence structures using modal verbs] (Estructuras de oraciones negativas empleando verbos modales)
+      h2 1.8 #[i Negative sentence structures using modal verbs] / Estructuras de oraciones negativas empleando verbos modales
     .row.mb-5
       .col-lg-auto.mb-4.mb-lg-0
         figure
@@ -1288,14 +1306,14 @@
           .col-lg-6
             TarjetaAudio.color-acento-botones.mb-2(
               texto=""
-              :audio="require('@/assets/curso/tema1/audio2.mp4')"
+              :audio="require('@/assets/curso/tema1/audio20.wav')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
     Separador
     #t_1_9
     .titulo-segundo.color-primario
-      h2 1.9 #[i Interrogative sentence structures using modal verbs] (Estructuras de oraciones interrogativas empleando verbos modales)
+      h2 1.9 #[i Interrogative sentence structures using modal verbs] / Estructuras de oraciones interrogativas empleando verbos modales
     .row.bg-color16.mb-5
       .col-12.p-5
         .row.mb-5
@@ -1344,7 +1362,7 @@
               img(src='@/assets/curso/tema1/img22.png')
             TarjetaAudio.color-primario.mb-2(
               texto="Could Melany do the laundry this Saturday?"
-              :audio="require('@/assets/curso/tema1/audio2.mp4')"
+              :audio="require('@/assets/curso/tema1/audio21.wav')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -1354,7 +1372,7 @@
               img(src='@/assets/curso/tema1/img23.png')
             TarjetaAudio.color-primario.mb-2(
               texto="May you be honest with her?"
-              :audio="require('@/assets/curso/tema1/audio2.mp4')"
+              :audio="require('@/assets/curso/tema1/audio22.wav')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -1364,7 +1382,7 @@
               img(src='@/assets/curso/tema1/img24.png')
             TarjetaAudio.color-primario.mb-2(
               texto="Might you answer some questions?"
-              :audio="require('@/assets/curso/tema1/audio2.mp4')"
+              :audio="require('@/assets/curso/tema1/audio23.wav')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -1375,7 +1393,7 @@
               img(src='@/assets/curso/tema1/img25.png')
             TarjetaAudio.color-primario.mb-2(
               texto="Should you drink all that wine?"
-              :audio="require('@/assets/curso/tema1/audio2.mp4')"
+              :audio="require('@/assets/curso/tema1/audio24.wav')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -1385,7 +1403,7 @@
               img(src='@/assets/curso/tema1/img26.png')
             TarjetaAudio.color-primario.mb-2(
               texto="Shall we see  the experiment?"
-              :audio="require('@/assets/curso/tema1/audio2.mp4')"
+              :audio="require('@/assets/curso/tema1/audio25.wav')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -1427,9 +1445,9 @@ export default {
       dialogo: [
         {
           textoIng:
-            '<em>In general, it can be noted that modal verbs are characterized by:<br><br><ul><li type="circle">They do not have a conjugation (they do not have an infinitive; they do not have a gerund or a participle).</li><li type="circle">They modify another verb, because, as auxiliary verbs, they are always accompanying another main verb in its basic form.</li><li type="circle">They express ability, necessity, certainty, obligation and/or disposition.</li><li type="circle">In their interrogative or negative form, they do not need any auxiliary verb (because they are themselves auxiliary verbs).</li></ul></em>',
+            '<em>In general, it can be noted that modal verbs are characterized by:<br><br><ul><li type="circle">They do not have a conjugation (they do not have an infinitive; they do not have a gerund or a participle).</li><li type="circle">They modify another verb, because, as auxiliary verbs, they are always accompanying another main verb in its basic form.</li><li type="circle">They express ability, necessity, certainty, obligation or disposition.</li><li type="circle">In their interrogative or negative form, they do not need any auxiliary verb (because they are themselves auxiliary verbs).</li></ul></em>',
           textoEsp:
-            'En líneas generales, puede señalarse que los verbos modales se caracterizan porque:<br><br><ul><li type="circle">No tienen conjugación (no tienen infinitivo, no tienen gerundio ni participio).</li><li type="circle">Modifican a otro verbo, pues, como verbos auxiliares, siempre están acompañando a otro verbo principal en su forma básica.</li><li type="circle">Expresan habilidad, necesidad, certidumbre, obligación y/o disposición.</li><li type="circle">En su forma interrogativa o negativa, no les hace falta ningún verbo auxiliar (porque ellos mismos son verbos auxiliares).</li></ul>',
+            'En líneas generales, puede señalarse que los verbos modales se caracterizan porque:<br><br><ul><li type="circle">No tienen conjugación (no tienen infinitivo, no tienen gerundio ni participio).</li><li type="circle">Modifican a otro verbo, pues, como verbos auxiliares, siempre están acompañando a otro verbo principal en su forma básica.</li><li type="circle">Expresan habilidad, necesidad, certidumbre, obligación o disposición.</li><li type="circle">En su forma interrogativa o negativa, no les hace falta ningún verbo auxiliar (porque ellos mismos son verbos auxiliares).</li></ul>',
         },
       ],
     },
@@ -1447,9 +1465,9 @@ export default {
       dialogo: [
         {
           textoIng:
-            '<em>In the development of a conversation or when formulating sentences, this modal verb can be used in an affirmative, negative or interrogative form. The following resource shows each of these structures:</em>',
+            '<em>In the development of a conversation or when formulating sentences, this <span>modal</span> verb can be used in an <span>affirmative, negative or interrogative form</span>. The following resource shows each of these structures:</em>',
           textoEsp:
-            'En el desarrollo de una conversación o al formular oraciones, este verbo modal se puede utilizar en forma afirmativa, negativa o interrogativa. En el siguiente recurso, se puede observar cada una de estas estructuras:',
+            'En el desarrollo de una conversación o al formular oraciones, este verbo <i>modal</i> se puede utilizar en forma <i>afirmativa, negativa o interrogativa</i>. En el siguiente recurso, se puede observar cada una de estas estructuras:',
         },
       ],
     },

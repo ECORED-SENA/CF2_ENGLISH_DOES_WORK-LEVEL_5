@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-botones
       .titulo-principal__numero
         span 2
-      h1 #[i Compound sentences] (Oraciones compuestas)
+      h1 #[i Compound sentences] / Oraciones compuestas
     .row.mb-5
       .col-lg-auto.mb-4.mb-lg-0
         figure
@@ -58,21 +58,21 @@
               li 
                 i.lista-ul__vineta
                 |
-                p.mb-0 #[i Carol wanted to study in Oxford, but she didn´t pass the admission exam.]
+                p.mb-0 #[i Carol wanted to study in Oxford, but she didn&apos;t pass the admission exam.]
               li 
                 i.lista-ul__vineta
                 |
                 p.mb-0 #[i Michael visited the old continent, then he met the Coliseum in Rome.]
           .col-lg-1.bg-color8.p-3
             Audio.color-primario.mx-auto(
-              :audio="require('@/assets/curso/tema1/audio2.mp4')"
+              :audio="require('@/assets/curso/tema2/audio1.wav')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
               .indicador--click(v-if="mostrarIndicadorAudio")
     Separador
     #t_2_1
     .titulo-segundo.color-primario
-      h2 2.1 #[i Personal activities] (Actividades personales)
+      h2 2.1 #[i Personal activities] / Actividades personales
     .row.mb-5
       .col-lg.mb-4.mb-lg-0
         Traduccion.color-primario(:dialogo="traduccion5")
@@ -109,7 +109,7 @@
                             .col
                               TarjetaAudio.color-primario.mb-2(
                                 texto="<p><b>Mike brushes his teeth every day.</b> / Mike se cepilla sus dientes todos los días.</p>"
-                                :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                                :audio="require('@/assets/curso/tema2/Audio15_a.wav')"
                                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
                               )
                                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -126,7 +126,7 @@
                             .col
                               TarjetaAudio.color-primario.mb-2(
                                 texto="<p><b>Dalia cleans the house every day.</b> / Dalia limpia la casa todos los días.</p>"
-                                :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                                :audio="require('@/assets/curso/tema2/Audio15_b.wav')"
                                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
                               )
                                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -143,7 +143,7 @@
                             .col
                               TarjetaAudio.color-primario.mb-2(
                                 texto="<p><b>She combs her hair quickly.</b> / Ella peina su cabello rápidamente.</p>"
-                                :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                                :audio="require('@/assets/curso/tema2/Audio15_c.wav')"
                                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
                               )
                                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -160,7 +160,7 @@
                             .col
                               TarjetaAudio.color-primario.mb-2(
                                 texto="<p><b>My mom cooks breakfast.</b> / Mi mamá hace el desayuno.</p>"
-                                :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                                :audio="require('@/assets/curso/tema2/Audio15_d.wav')"
                                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
                               )
                                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -181,7 +181,7 @@
                             .col
                               TarjetaAudio.color-primario.mb-2(
                                 texto="<p><b>I cook dinner at home.</b> / Yo hago la cena en casa.</p>"
-                                :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                                :audio="require('@/assets/curso/tema2/Audio15_e.wav')"
                                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
                               )
                                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -198,7 +198,7 @@
                             .col
                               TarjetaAudio.color-primario.mb-2(
                                 texto="<p><b>My wife cooks lunch.</b> / Mi esposa hace el almuerzo.</p>"
-                                :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                                :audio="require('@/assets/curso/tema2/Audio15_f.wav')"
                                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
                               )
                                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -215,7 +215,7 @@
                             .col
                               TarjetaAudio.color-primario.mb-2(
                                 texto="<p><b>Billy feeds his pet three times a day.</b> / Billy alimenta a su mascota tres veces al día.</p>"
-                                :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                                :audio="require('@/assets/curso/tema2/Audio15_g.wav')"
                                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
                               )
                                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -232,7 +232,7 @@
                             .col
                               TarjetaAudio.color-primario.mb-2(
                                 texto="<p><b>Damian finishes work at 5 p.m.</b> / Damian termina de trabajar a las 5 de la tarde.</p>"
-                                :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                                :audio="require('@/assets/curso/tema2/Audio15_h.wav')"
                                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
                               )
                                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -253,7 +253,7 @@
                             .col
                               TarjetaAudio.color-primario.mb-2(
                                 texto="<p><b>Paul gets home at night.</b> / Paul llega a casa por la noche.</p>"
-                                :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                                :audio="require('@/assets/curso/tema2/Audio15_i.wav')"
                                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
                               )
                                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -270,7 +270,7 @@
                             .col
                               TarjetaAudio.color-primario.mb-2(
                                 texto="<p><b>They get to work at 9 a.m.</b> / Ellos llegan al trabajo a las 9 de la mañana.</p>"
-                                :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                                :audio="require('@/assets/curso/tema2/Audio15_j.wav')"
                                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
                               )
                                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -287,7 +287,7 @@
                             .col
                               TarjetaAudio.color-primario.mb-2(
                                 texto="<p><b>James gets up at 5 o’clock.</b> / James se levanta a las 5 en punto.</p>"
-                                :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                                :audio="require('@/assets/curso/tema2/Audio15_k.wav')"
                                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
                               )
                                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -304,7 +304,7 @@
                             .col
                               TarjetaAudio.color-primario.mb-2(
                                 texto="<p><b>Betty goes home with her friends.</b> / Betty se va a casa con sus amigas.</p>"
-                                :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                                :audio="require('@/assets/curso/tema2/Audio15_l.wav')"
                                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
                               )
                                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -325,7 +325,7 @@
                             .col
                               TarjetaAudio.color-primario.mb-2(
                                 texto="<p><b>I go to bed at 10 p.m.</b> / Yo voy a la cama a las 10 de la noche.</p>"
-                                :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                                :audio="require('@/assets/curso/tema2/Audio15_m.wav')"
                                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
                               )
                                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -342,7 +342,7 @@
                             .col
                               TarjetaAudio.color-primario.mb-2(
                                 texto="<p><b>Ann goes to school at 1 p.m.</b> / Ann va a la escuela a la 1 de la tarde.</p>"
-                                :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                                :audio="require('@/assets/curso/tema2/Audio15_n.wav')"
                                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
                               )
                                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -359,7 +359,7 @@
                             .col
                               TarjetaAudio.color-primario.mb-2(
                                 texto="<p><b>Felix goes to work at 9 o’clock.</b> / Felix va al trabajo a las 9 en punto.</p>"
-                                :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                                :audio="require('@/assets/curso/tema2/Audio15_o.wav')"
                                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
                               )
                                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -376,7 +376,7 @@
                             .col
                               TarjetaAudio.color-primario.mb-2(
                                 texto="<p><b>Employees have coffee during break.</b> / Los empleados toman café durante el descanso.</p>"
-                                :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                                :audio="require('@/assets/curso/tema2/Audio15_p.wav')"
                                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
                               )
                                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -397,7 +397,7 @@
                             .col
                               TarjetaAudio.color-primario.mb-2(
                                 texto="<p><b>The girls have lunch at noon.</b> / Las chicas almuerzan al mediodía.</p>"
-                                :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                                :audio="require('@/assets/curso/tema2/Audio15_q.wav')"
                                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
                               )
                                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -414,14 +414,14 @@
                             .col
                               TarjetaAudio.color-primario.mb-2(
                                 texto="<p><b>My aunt has her tea at 5 o’clock.</b> / Mi tía toma su té a las 5 en punto.</p>"
-                                :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                                :audio="require('@/assets/curso/tema2/Audio15_r.wav')"
                                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
                               )
                                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
     Separador
     #t_2_2
     .titulo-segundo.color-primario
-      h2 2.2 #[i Social activities] (Actividades sociales)
+      h2 2.2 #[i Social activities] / Actividades sociales
     .row.mb-5
       .col-lg-auto.mb-4.mb-lg-0
         figure
@@ -432,7 +432,7 @@
           .col-lg-7
             p #[b #[i.txt-color2 Some of these activities are listed below to help you with the required vocabulary:]] / #[span.txt-color3 Algunas de estas actividades se señalan a continuación para ayudarle con el vocabulario:]
           .col-lg-5
-            a.anexo.mb-4(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+            a.anexo.mb-4(:href="obtenerLink('downloads/Anexo2.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -446,7 +446,7 @@
     Separador
     #t_2_3
     .titulo-segundo.color-primario
-      h2 2.3 #[i Labor activities] (Actividades laborales)
+      h2 2.3 #[i Labor activities] / Actividades laborales
     .row.mb-5
       .col-lg-auto.mb-4.mb-lg-0
         figure
@@ -702,63 +702,63 @@
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Apply for a job.</b> / Solicitar un trabajo.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio16_a.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Accept the offer.</b> / Aceptar la oferta.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio16_e.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                   .row
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
-                        texto="<p><b>CV</b> / Hoja de vida o curriculum vitae.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        texto="<p><b>CV.</b> / Hoja de vida o curriculum vitae.</p>"
+                        :audio="require('@/assets/curso/tema2/Audio16_b.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Reject the offer.</b> / Rechazar la oferta.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio16_f.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                   .row
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
-                        texto="<p><b>Appointment</b> / Cita</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        texto="<p><b>Appointment.</b> / Cita.</p>"
+                        :audio="require('@/assets/curso/tema2/Audio16_c.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>To hire staff.</b> / Contratar personal.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio16_g.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                   .row
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
-                        texto="<p><b>Interview</b> / Entrevista</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        texto="<p><b>Interview.</b> / Entrevista.</p>"
+                        :audio="require('@/assets/curso/tema2/Audio16_d.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Contract.</b> / Contrato.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio16_h.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-              .row(titulo="<em>Regarding the characteristics of the labor to do</em> / Respecto a las características de la labor a realizar.")
+              .row(titulo="<em>Regarding the characteristics of the labor to do</em> / Respecto a las características de la labor a realizar")
                 .col-12
                   p.mb-0.text-center #[b #[i.txt-color2 Phrases or vocabulary used for labor activities.]]
                   p.mb-5.text-center.txt-color3 Frases o vocabulario utilizado para actividades laborales.
@@ -766,14 +766,14 @@
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Trainee.</b> / Aprendiz.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio17_a.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Break.</b> / Descanso.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio17_l.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -781,14 +781,14 @@
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Full-time job.</b> / Trabajo a tiempo completo.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio17_b.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Lunch time.</b> / Hora de almuerzo.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio17_m.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -796,14 +796,14 @@
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Part-time job.</b> / Trabajo de medio tiempo.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio17_c.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Schedule.</b> / Horario.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio17_n.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -811,14 +811,14 @@
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Permanent  job.</b> / Trabajo fijo o permanente.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio17_d.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Timekeeping.</b> / Puntualidad.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio17_o.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -826,14 +826,14 @@
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Temporary job.</b> / Trabajo temporal.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio17_e.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Check-in time.</b> / Hora de entrada.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio17_p.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -841,14 +841,14 @@
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Work shift.</b> / Turno de trabajo.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio17_f.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Check-out time.</b> / Hora de salida.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio17_q.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -856,14 +856,14 @@
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Boss.</b> / Jefe</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio17_g.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Overtime.</b> / Horas extra.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio17_r.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -871,14 +871,14 @@
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Colleague.</b> / Colega, compañero de trabajo.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio17_h.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Day off.</b> / Día libre.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio17_s.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -886,14 +886,14 @@
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Manager.</b> / Gerente.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio17_i.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Get promoted.</b> / Obtener un ascenso</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio17_t.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -901,14 +901,14 @@
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Employee.</b> / Empleado.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio17_j.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Staff.</b> / Personal de la empresa.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio17_u.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -916,18 +916,18 @@
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Worker.</b> / Trabajador.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio17_k.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Workplace.</b> / Lugar de trabajo.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio17_v.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-              .row(titulo="<em>Regarding the payment conditions.</em> / Respecto a las características del pago.")
+              .row(titulo="<em>Regarding the payment conditions</em> / Respecto a las características del pago")
                 .col-12
                   p.mb-0.text-center #[b #[i.txt-color2 Phrases or vocabulary used for labor activities.]]
                   p.mb-5.text-center.txt-color3 Frases o vocabulario utilizado para actividades laborales.
@@ -935,14 +935,14 @@
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Daily salary.</b> / Salario diario.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio18_a.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Bonus.</b> / Bono o bonificación.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio18_g.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -950,14 +950,14 @@
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Monthly salary.</b> / Salario mensual.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio18_b.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Vacation bonus.</b> / Bono de vacaciones.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio18_h.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -965,14 +965,14 @@
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Wage.</b> / Salario por semana.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio18_c.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Social security.</b> / Seguridad social.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio18_i.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -980,14 +980,14 @@
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Salary increase.</b> / Aumento salarial.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio18_d.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Social benefits.</b> / Prestaciones sociales.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio18_j.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -995,14 +995,14 @@
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Minimum wage.</b> / Salario mínimo.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio18_e.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Health insurance.</b> / Seguro médico.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio18_k.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -1010,11 +1010,11 @@
                     .col-lg-6
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Decent salary.</b> / Salario digno.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio18_f.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-              .row(titulo="<em>When you stop working</em> / Cuando se deja de trabajar.")
+              .row(titulo="<em>When you stop working</em> / Cuando se deja de trabajar")
                 .col-12
                   p.mb-0.text-center #[b #[i.txt-color2 Phrases or vocabulary used for labor activities.]]
                   p.mb-5.text-center.txt-color3 Frases o vocabulario utilizado para actividades laborales.
@@ -1022,14 +1022,14 @@
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>To resign.</b> / Dimitir, renunciar.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio19_a.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Grief over the death of a family member.</b> / Duelo por muerte de un familiar.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio19_h.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -1037,14 +1037,14 @@
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>To retire.</b> / Retirarse, jubilarse.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio19_b.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Holidays.</b> / Vacaciones.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio19_i.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -1052,14 +1052,14 @@
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Maternity leave.</b> / Permiso por maternidad.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio19_c.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Strike.</b> / Huelga.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio19_j.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -1067,14 +1067,14 @@
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Paternity leave.</b> / Permiso por paternidad.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio19_e.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>To fire.</b> / Despedir.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio19_k.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -1082,14 +1082,14 @@
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Marriage license.</b> / Permiso matrimonial.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio19_f.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
                     .col-lg
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Out of work.</b> / Ser despedido, no tener trabajo.</p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio19_l.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -1097,14 +1097,14 @@
                     .col-lg-6
                       TarjetaAudio.color-primario.mb-3(
                         texto="<p><b>Sick leave.</b> / Permiso por enfermedad. </p>"
-                        :audio="require('@/assets/curso/tema1/audio2.mp4')"
+                        :audio="require('@/assets/curso/tema2/Audio19_g.wav')"
                         @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
                         .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
     Separador
     #t_2_4
     .titulo-segundo.color-primario
-      h2 2.4 #[i Physical, social and cognitive skills] (Habilidades físicas, sociales y cognitivas)
+      h2 2.4 #[i Physical, social and cognitive skills] / Habilidades físicas, sociales y cognitivas
     .row.mb-5
       .col-lg.mb-4.mb-lg-0
         Traduccion.color-primario(:dialogo="traduccion8")
@@ -1119,7 +1119,7 @@
         .row.justify-content-end
           .col-auto.p-4
             Audio.color-primario.my-5.me-4(
-              :audio="require('@/assets/curso/tema1/audio3.mp4')"
+              :audio="require('@/assets/curso/tema2/Audio20.wav')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
             .indicador--click(v-if="mostrarIndicadorAudio")
@@ -1133,13 +1133,13 @@
           td.border3
             h5.mb-0.text-center Capacidades motrices
           td
-            h5.mb-0.text-center #[b #[i Perceptual-Motor Abilities]]
+            h5.mb-0.text-center #[b #[i Perceptual-motor abilities]]
           td.border3
-            h5.mb-0.text-center Capacidades Perceptivo-Motrices
+            h5.mb-0.text-center Capacidades perceptivo-motrices
           td.border3
-            h5.mb-0.text-center #[b #[i Socio-Motor Skills]]
+            h5.mb-0.text-center #[b #[i Socio-motor skills]]
           td
-            h5.mb-0.text-center Capacidades Socio-Motrices
+            h5.mb-0.text-center Capacidades socio-motrices
         tr
           td
             p.mb-0.text-center #[i Strength]
@@ -1208,7 +1208,7 @@
             .row.justify-content-end
               .col-auto.p-4
                 Audio.color-primario.my-5.me-4(
-                  :audio="require('@/assets/curso/tema1/audio3.mp4')"
+                  :audio="require('@/assets/curso/tema2/Audio21.wav')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                 .indicador--click(v-if="mostrarIndicadorAudio")
@@ -1320,7 +1320,7 @@
         .row.justify-content-end
           .col-auto.p-4
             Audio.color-primario.my-5.me-4(
-              :audio="require('@/assets/curso/tema1/audio3.mp4')"
+              :audio="require('@/assets/curso/tema2/Audio22.wav')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
             .indicador--click(v-if="mostrarIndicadorAudio")
@@ -1428,7 +1428,7 @@
             .row.justify-content-end
               .col-auto.p-4
                 Audio.color-primario.my-5.me-4(
-                  :audio="require('@/assets/curso/tema1/audio3.mp4')"
+                  :audio="require('@/assets/curso/tema2/Audio23.wav')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                 .indicador--click(v-if="mostrarIndicadorAudio")
@@ -1505,7 +1505,7 @@ export default {
       dialogo: [
         {
           textoIng:
-            '<em>When talking about modal verbs, we are referring to a type of auxiliary verb that can be used to express an opinion about the probability of an event occurring, that is, it indicates whether something is probable or possible. In addition, it is also used to refer to a skill, to make a request, or to request a permission.<br><br>These clauses or sentences can be of two types: independent or dependent.<br><br><b>Independent clauses or sentences</b>, also called main clauses, are sentences that make sense in themselves; so that they include a subject, a verb and a complement.<br>For example: <b>Mary wants a dress</b>.<br><br><b>Dependent clauses or sentences</b>, also called subordinate clauses, are sentences that depend on an independent clause in order to make complete sense. Therefore, they are always linked to them through subordinating conjunctions.<br>For example: <b>Mary will buy a blue dress</b>.</em>',
+            '<em>A sentence can be defined as a grammatical structure that forms a unit with complete meaning. Basically, sentences are made up of clauses that include at least one verb. These clauses are made up of a subject and a predicate.<br><br>These clauses or sentences can be of two types: independent or dependent.<br><br><b>Independent clauses or sentences</b>, also called main clauses, are sentences that make sense in themselves; so that they include a subject, a verb and a complement.<br>For example: <b>Mary wants a dress</b>.<br><br><b>Dependent clauses or sentences</b>, also called subordinate clauses, are sentences that depend on an independent clause in order to make complete sense. Therefore, they are always linked to them through subordinating conjunctions.<br>For example: <b>Mary will buy a blue dress</b>.</em>',
           textoEsp:
             'Puede definirse una oración como una estructura gramatical que forma una unidad con sentido completo. Básicamente, las oraciones están constituidas por cláusulas que incluyen al menos un verbo. Estas cláusulas están formadas por un sujeto y un predicado.<br><br>Estas cláusulas u oraciones pueden ser de dos tipos: independientes o dependientes.<br><br><b>Las cláusulas u oraciones independientes</b>, denominadas también principales, son oraciones que tienen sentido en sí mismas; de manera que incluyen un sujeto, un verbo y complemento.<br>Por ejemplo: <b>Mary quiere un vestido</b>.<br><br><b>Las cláusulas dependientes</b>, denominadas también subordinadas, son oraciones que dependen de una cláusula independiente para poder tener un sentido completo. Por eso, siempre van unidas a ellas a través de conjunciones subordinantes.<br>Por ejemplo: <b>Mary comprará un vestido azul</b>.',
         },
@@ -1535,7 +1535,7 @@ export default {
       dialogo: [
         {
           textoIng:
-            '<em><b>Case 3</b><br><br>An important thing not to forget is putting a comma before a coordinating conjunction that connects two independent clauses. However, between independent clauses that contain commas or are very long, a semicolon is used.<br><br><b>Example: Carol wanted to study in Oxford, but she didn´t pass the admission exam</b>.</em>',
+            '<em><b>Case 3</b><br><br>An important thing not to forget is putting a comma before a coordinating conjunction that connects two independent clauses. However, between independent clauses that contain commas or are very long, a semicolon is used.<br><br><b>Example: Carol wanted to study in Oxford, but she didn&apos;t pass the admission exam</b>.</em>',
           textoEsp:
             'Algo importante que no debe olvidarse es poner una coma antes de una conjunción coordinadora que conecta dos cláusulas independientes. Sin embargo, entre las cláusulas independientes que contengan comas o sean muy largas, se utiliza punto y coma.<br><br><b>Ejemplo: Carol quería estudiar en Oxford, pero no aprobó el examen de admisión</b>.',
         },
@@ -1545,7 +1545,7 @@ export default {
       dialogo: [
         {
           textoIng:
-            '<em>In general, personal activities are oriented towards the organic survival and human condition of an individual. Basically they are activities that take place on a daily basis and are carried out automatically, focused on the care and maintenance of one´s own body. In addition, they integrate all those procedures that a person can perform on a daily basis, with a purpose that is part of that person´s identity.</em>',
+            '<em>In general, personal activities are oriented towards the organic survival and human condition of an individual. Basically they are activities that take place on a daily basis and are carried out automatically, focused on the care and maintenance of one&apos;s own body. In addition, they integrate all those procedures that a person can perform on a daily basis, with a purpose that is part of that person&apos;s identity.</em>',
           textoEsp:
             'En líneas generales, las actividades personales están orientadas a la supervivencia orgánica y condición humana de un individuo. Básicamente, son actividades que tienen lugar a diario y se realizan de forma automática, enfocadas hacia el cuidado y mantenimiento del propio cuerpo. Además, integran todos aquellos procedimientos que una persona puede realizar de forma cotidiana, con un propósito que forma parte de la identidad de esa persona.',
         },
@@ -1646,7 +1646,7 @@ export default {
         },
         {
           personaje: 'Aura',
-          textoIng: 'I need to go to scholl',
+          textoIng: 'I need to go to school',
           textoEsp: 'tengo que ir a la escuela',
           audio: require('@/assets/curso/tema1/audio2.mp4'),
           palabra: '',
