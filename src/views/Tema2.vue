@@ -440,7 +440,54 @@
     p.mb-5 A continuación, podremos observar el siguiente diálogo utilizando una de las actividades sociales como #[b #[i.txt-color1 “go to the disco”]].
     p.text-center.mb-5 #[b #[i.txt-color2 A bit of humor…] / #[span.txt-color3 Un poco de humor…]]
     .row.justify-content-center
-      .col-lg-auto
+      .col-3.d-none.d-lg-block
+        .figStyle3
+          TarjetaAudio.color-acento-contenido(
+            texto="<span>Jane:</span> Don’t worry Billy. In this<br>darkness, nobody will notice that."
+            :audio="require('@/assets/curso/tema2/audio24.wav')"
+            @audio-hover="mostrarIndicadorTarjetaAudio = false"
+          )
+            .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+      .col-lg-4.d-none.d-lg-block
+        figure
+          img(src='@/assets/curso/tema2/img10.svg').m-auto
+      .col-3.d-none.d-lg-block
+        .figStyle4
+          TarjetaAudio.color-acento-botones(
+            texto="<span>Billy:</span> Sorry, Jane. I don’t dance very well."
+            :audio="require('@/assets/curso/tema2/audio25.wav')"
+            @audio-hover="mostrarIndicadorTarjetaAudio = false"
+          )
+            .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+        .figStyle5
+          TarjetaAudio.color-acento-botones(
+            texto="<span>Billy:</span> Ok. Let’s dance!"
+            :audio="require('@/assets/curso/tema2/audio26.wav')"
+            @audio-hover="mostrarIndicadorTarjetaAudio = false"
+          )
+            .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+    .row.justify-content-center
+      .col-10.mb-4.d-block.d-lg-none
+        TarjetaAudio.color-acento-botones(
+          texto="<span>Billy:</span> Sorry, Jane. I don’t dance very well."
+          :audio="require('@/assets/curso/tema2/audio25.wav')"
+          @audio-hover="mostrarIndicadorTarjetaAudio = false"
+        )
+          .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+      .col-10.d-block.d-lg-none
+        TarjetaAudio.color-acento-contenido.mb-4(
+            texto="<span>Jane:</span> Don’t worry Billy. In this darkness, nobody will notice that."
+            :audio="require('@/assets/curso/tema2/audio24.wav')"
+            @audio-hover="mostrarIndicadorTarjetaAudio = false"
+          )
+            .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+        TarjetaAudio.color-acento-botones.mb-4(
+          texto="<span>Billy:</span> Ok. Let’s dance!"
+          :audio="require('@/assets/curso/tema2/audio26.wav')"
+          @audio-hover="mostrarIndicadorTarjetaAudio = false"
+        )
+          .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+      .col-12.d-block.d-lg-none
         figure
           img(src='@/assets/curso/tema2/img10.svg').m-auto
     Separador
@@ -630,51 +677,51 @@
     .row.mb-4
       .col-lg.bg-color54.m-lg-2.mb-4.mb-lg-0
         .row.align-items-end
-          .col-lg-auto.mb-4.mb-lg-0
+          .col-4.col-lg-auto.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema2/img12.svg')
+              img(src='@/assets/curso/tema2/img12.svg').m-auto
           .col
             p.mb-0 #[b #[i.txt-color1 Susy works as a babysitter in her free time from school.]]
             p Susy trabaja como niñera en su tiempo libre de la escuela.
       .col-lg.bg-color54.m-lg-2.mb-0.mb-lg-0
         .row.align-items-end
-          .col-lg-auto.mb-4.mb-lg-0
+          .col-4.col-lg-auto.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema2/img13.svg')
+              img(src='@/assets/curso/tema2/img13.svg').m-auto
           .col
             p.mb-0 #[b #[i.txt-color1 Jefferson wants to be a firefighter when he qrows up.]]
             p Jefferson quiere ser bombero cuando sea grande.
     .row.mb-4
       .col-lg.bg-color54.m-lg-2.mb-4.mb-lg-0
         .row.align-items-end
-          .col-lg-auto.mb-4.mb-lg-0
+          .col-4.col-lg-auto.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema2/img14.svg')
+              img(src='@/assets/curso/tema2/img14.svg').m-auto
           .col
             p.mb-0 #[b #[i.txt-color1 Jimmy excels at his job as a bartender at that restaurant.]]
             p Jimmy se destaca como cantinero en ese restaurante.
       .col-lg.bg-color54.m-lg-2.mb-0.mb-lg-0
         .row.align-items-end
-          .col-lg-auto.mb-4.mb-lg-0
+          .col-4.col-lg-auto.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema2/img15.svg')
+              img(src='@/assets/curso/tema2/img15.svg').m-auto
           .col
             p.mb-0 #[b #[i.txt-color1 Felix is a pilot with many flying hours.]]
             p Félix es un piloto con muchas horas de vuelo.
     .row.mb-5
       .col-lg.bg-color54.m-lg-2.mb-4.mb-lg-0
         .row.align-items-end
-          .col-lg-auto.mb-4.mb-lg-0
+          .col-4.col-lg-auto.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema2/img16.svg')
+              img(src='@/assets/curso/tema2/img16.svg').m-auto
           .col
             p.mb-0 #[b #[i.txt-color1 He is the dentist in that clinic.]]
             p Él es el dentista en esa clínica.
       .col-lg.bg-color54.m-lg-2.mb-0.mb-lg-0
         .row.align-items-end
-          .col-lg-auto.mb-4.mb-lg-0
+          .col-4.col-lg-auto.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema2/img17.svg')
+              img(src='@/assets/curso/tema2/img17.svg').m-auto
           .col
             p.mb-0 #[b #[i.txt-color1 Robert is a sailor, that’s why he has a love in every port.]]
             p Roberto es un marinero, por eso tiene un amor en cada puerto.
@@ -688,10 +735,10 @@
     p.mb-5 A continuación, puede escuchar algunas frases que son utilizadas en actividades laborales en nuestro diario vivir.
     .row.bg-color55
       .col-12.p-5
-        .row
-          .col-lg-auto
+        .row.justify-content-center
+          .col-8.col-lg-auto.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema2/img37.png')
+              img(src='@/assets/curso/tema2/img37.png').m-auto
           .col-lg
             AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--blanca")
               .row(titulo="<em>When you apply for a job:</em> / Al solicitar empleo:")
@@ -1627,70 +1674,70 @@ export default {
           personaje: 'Christian',
           textoIng: 'What time do you ***?',
           textoEsp: 'A qué hora te ***',
-          audio: require('@/assets/curso/tema1/audio2.mp4'),
+          audio: require('@/assets/curso/tema2/audio1.mp3'),
           palabra: 'get up',
         },
         {
           personaje: 'Aura',
           textoIng: 'Usually, at 6:00 a.m.',
           textoEsp: 'Por lo general, a las 6:00 a.m.',
-          audio: require('@/assets/curso/tema1/audio2.mp4'),
+          audio: require('@/assets/curso/tema2/audio27.wav'),
           palabra: '',
         },
         {
           personaje: 'Christian',
           textoIng: 'Wow! That’s very early!',
           textoEsp: '¡Guau! ¡Eso es muy temprano!',
-          audio: require('@/assets/curso/tema1/audio2.mp4'),
+          audio: require('@/assets/curso/tema2/audio2.mp3'),
           palabra: 'must',
         },
         {
           personaje: 'Aura',
           textoIng: 'I need to go to school',
           textoEsp: 'tengo que ir a la escuela',
-          audio: require('@/assets/curso/tema1/audio2.mp4'),
+          audio: require('@/assets/curso/tema2/audio28.wav'),
           palabra: '',
         },
         {
           personaje: 'Christian',
           textoIng: 'What’s the first thing you do when you get up?',
           textoEsp: '¿Qué es lo primero que haces cuando te levantas?',
-          audio: require('@/assets/curso/tema1/audio2.mp4'),
+          audio: require('@/assets/curso/tema2/audio3.mp3'),
           palabra: '',
         },
         {
           personaje: 'Aura',
           textoIng: 'I *** my teeth.',
           textoEsp: 'Me *** los dientes.',
-          audio: require('@/assets/curso/tema1/audio2.mp4'),
+          audio: require('@/assets/curso/tema2/audio5.mp3'),
           palabra: 'brush',
         },
         {
           personaje: 'Aura',
           textoIng: 'I take a ***.',
           textoEsp: 'Yo tomo una ***.',
-          audio: require('@/assets/curso/tema1/audio2.mp4'),
+          audio: require('@/assets/curso/tema2/audio6.mp3'),
           palabra: 'shower',
         },
         {
           personaje: 'Aura',
           textoIng: 'I *** my hair.',
           textoEsp: 'Me *** mi pelo.',
-          audio: require('@/assets/curso/tema1/audio2.mp4'),
+          audio: require('@/assets/curso/tema2/audio7.mp3'),
           palabra: 'comb',
         },
         {
           personaje: 'Aura',
           textoIng: 'And *** breakfast.',
           textoEsp: 'Y *** el desayuno.',
-          audio: require('@/assets/curso/tema1/audio2.mp4'),
+          audio: require('@/assets/curso/tema2/audio8.mp3'),
           palabra: 'cook',
         },
         {
           personaje: 'Christian',
           textoIng: 'Ok, Bye.',
           textoEsp: 'Ok, Adios.',
-          audio: require('@/assets/curso/tema1/audio2.mp4'),
+          audio: require('@/assets/curso/tema2/audio4.mp3'),
           palabra: '',
         },
       ],
