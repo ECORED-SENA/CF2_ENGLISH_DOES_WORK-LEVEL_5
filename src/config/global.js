@@ -338,7 +338,7 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Lina Marcela Perez',
+        nombre: 'Lina Marcela Pérez Manchego',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
