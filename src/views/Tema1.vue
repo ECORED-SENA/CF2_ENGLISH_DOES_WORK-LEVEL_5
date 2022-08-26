@@ -1413,11 +1413,34 @@
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) #[i A short story] / Un cuento corto.
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-lg-5.m-lg-2.bg-color5.p-4.mb-4.mb-lg-0
         p.mb-0 #[b #[i.txt-color2 That’s why you shouldn’t visit the same places with your new girlfriend…]]
       .col-lg-5.m-lg-2.bg-color6.p-4.mb-0.mb-lg-0
         p.mb-0.txt-color4 Por eso no debes visitar los mismos lugares con tu nueva novia…
+    .titulo-segundo.color-primario(data-aos='fade-right')
+      h2 Actividad Didactica 
+    .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
+      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
+        .tarjeta.h-100.d-flex.align-items-center.p-4
+          figure
+            img(src="@/assets/template/completar-espacios.svg", alt="Texto que describa la imagen")
+      .col-12.col-md-8.col-lg-9
+        .titulo-segundo
+          h2 #[i Modal verbs] / Verbos modales
+        p.mb-4 #[i Complete the sentences using modal verbs.]
+          br
+          br
+          | Completar las oraciones utilizando verbos modales.
+
+        .tarjeta.actividad.p-3
+          .row.justify-content-around.align-items-center            
+            .col-sm.mb-3.mb-sm-0
+              p.fw-bold.mb-0 Completar los espacios en blanco
+            .col-auto
+              a.boton.boton--b(:href="obtenerLink('/actividades/a1/story.html')" target="_blank")
+                span Realizar
+                i.fas.fa-puzzle-piece
       
 </template>
 
