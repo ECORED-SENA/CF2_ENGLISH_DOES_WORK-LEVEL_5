@@ -1689,7 +1689,7 @@ export default {
           textoIng: 'Wow! That’s very early!',
           textoEsp: '¡Guau! ¡Eso es muy temprano!',
           audio: require('@/assets/curso/tema2/audio2.mp3'),
-          palabra: 'must',
+          palabra: '',
         },
         {
           personaje: 'Aura',

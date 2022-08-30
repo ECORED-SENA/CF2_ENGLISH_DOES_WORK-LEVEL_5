@@ -777,7 +777,7 @@
             p.mb-0 #[b #[i.txt-color2 In this case, #[span.txt-color1 may not] continues → #[span.txt-color1 may not.]]]
           .col-12.bg-color6.p-4.mb-3
             p.mb-0.txt-color3 #[b Nota]: al estar en forma negativa, este verbo modal no puede escribirse con contracción.
-            p.mb-0.txt-color3 En este caso, #[i #[b may not]] continua → #[i #[b may not.]]
+            p.mb-0.txt-color3 En este caso, #[i #[b may not]] continúa → #[i #[b may not.]]
     Separador
     #t_1_5
     .titulo-segundo.color-primario
@@ -947,7 +947,7 @@
             p.mb-0 #[b #[i.txt-color2 In this case, #[span.txt-color1 might not] continues → #[span.txt-color1 might not.]]]
           .col-12.bg-color6.p-4.mb-3
             p.mb-0.txt-color3 #[b Nota]: al estar en forma negativa, este verbo modal no puede escribirse con contracción.
-            p.mb-0.txt-color3 En este caso, #[i #[b might not]] continua → #[i #[b might not.]]
+            p.mb-0.txt-color3 En este caso, #[i #[b might not]] continúa → #[i #[b might not.]]
     Separador
     #t_1_6
     .titulo-segundo.color-primario
@@ -1419,7 +1419,7 @@
       .col-lg-5.m-lg-2.bg-color6.p-4.mb-0.mb-lg-0
         p.mb-0.txt-color4 Por eso no debes visitar los mismos lugares con tu nueva novia…
     .titulo-segundo.color-primario(data-aos='fade-right')
-      h2 Actividad Didactica 
+      h2 Actividad didáctica 
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
