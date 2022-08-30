@@ -223,7 +223,7 @@
     .row
       .col-lg.p-5.m-2.bg-color5
         p.mb-0 #[b #[i.txt-color2 * Being in the negative form, this modal verb can be written with a contraction.]]
-        p.mb-0 #[b #[i.txt-color2 In this case, #[span.txt-color1 can not] becomes → #[span.txt-color1 can't]]]
+        p.mb-0 #[b #[i.txt-color2 In this case, #[span.txt-color1 can not] become → #[span.txt-color1 can't]]]
       .col-lg.p-5.m-2.bg-color6
         p.mb-0 #[i.txt-color3 * Al estar en forma negativa, este verbo modal puede escribirse con contracción.]
         p.mb-0 #[i.txt-color3 En este caso, #[b can not] pasa a → #[b can't]]
@@ -400,7 +400,7 @@
         .row
           .col-12.bg-color5.p-4.mb-3
             p.mb-0 #[b #[i.txt-color2 Note: being in the negative form, this modal verb can be written with a contraction.]]
-            p.mb-0 #[b #[i.txt-color2 In this case, #[span.txt-color1 could not] becomes → #[span.txt-color1 couldn’t.]]]
+            p.mb-0 #[b #[i.txt-color2 In this case, #[span.txt-color1 could not] become → #[span.txt-color1 couldn’t.]]]
           .col-12.bg-color6.p-4.mb-3
             p.mb-0.txt-color3 #[b Nota]: al estar en forma negativa, este verbo modal puede escribirse con contracción. 
             p.mb-0.txt-color3 En este caso, #[i #[b could not]]  pasa a → #[i #[b couldn’t.]]
@@ -596,7 +596,7 @@
         .row
           .col-12.bg-color5.p-4.mb-3
             p.mb-0 #[b #[i.txt-color2 Note: being in the negative form, this modal verb can be written with a contraction.]]
-            p.mb-0 #[b #[i.txt-color2 In this case, #[span.txt-color1 should not] becomes → #[span.txt-color1 shouldn’t.]]]
+            p.mb-0 #[b #[i.txt-color2 In this case, #[span.txt-color1 should not] become → #[span.txt-color1 shouldn’t.]]]
           .col-12.bg-color6.p-4.mb-3
             p.mb-0.txt-color3 #[b Nota]: al estar en forma negativa, este verbo modal puede escribirse con contracción.
             p.mb-0.txt-color3 En este caso, #[i #[b should not]]  pasa a → #[i #[b shouldn’t.]]
@@ -774,7 +774,7 @@
         .row
           .col-12.bg-color5.p-4.mb-3
             p.mb-0 #[b #[i.txt-color2 Note: being in the negative form, this modal verb can’t be written with a contraction.]]
-            p.mb-0 #[b #[i.txt-color2 In this case, #[span.txt-color1 may not] continues → #[span.txt-color1 may not.]]]
+            p.mb-0 #[b #[i.txt-color2 In this case, #[span.txt-color1 may not] continue → #[span.txt-color1 may not.]]]
           .col-12.bg-color6.p-4.mb-3
             p.mb-0.txt-color3 #[b Nota]: al estar en forma negativa, este verbo modal no puede escribirse con contracción.
             p.mb-0.txt-color3 En este caso, #[i #[b may not]] continúa → #[i #[b may not.]]
@@ -944,7 +944,7 @@
         .row
           .col-12.bg-color5.p-4.mb-3
             p.mb-0 #[b #[i.txt-color2 Note: being in the negative form, this modal verb can’t be written with a contraction.]]
-            p.mb-0 #[b #[i.txt-color2 In this case, #[span.txt-color1 might not] continues → #[span.txt-color1 might not.]]]
+            p.mb-0 #[b #[i.txt-color2 In this case, #[span.txt-color1 might not] continue → #[span.txt-color1 might not.]]]
           .col-12.bg-color6.p-4.mb-3
             p.mb-0.txt-color3 #[b Nota]: al estar en forma negativa, este verbo modal no puede escribirse con contracción.
             p.mb-0.txt-color3 En este caso, #[i #[b might not]] continúa → #[i #[b might not.]]
